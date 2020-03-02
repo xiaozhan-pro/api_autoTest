@@ -1,0 +1,31 @@
+Excel_handler:
+  sheet_login: "login"
+  sheet_register: "register"
+  sheet_recharge: "recharge"
+  sheet_withdraw: "withdraw"
+  sheet_loan_add: "loan_add"
+  sheet_invest: "invest"
+  xlsx_name: "test_cases.xlsx"
+
+Logger_handler:
+  filename: "log.txt"
+  log_name: "api_log"
+
+Database:
+  host: "120.78.128.25"
+  port: 3306
+  user: "future"
+  password: "123456"
+  charset: "utf8"
+  database: "futureloan"
+
+# 充值、新增项目、投资测试账号
+User_RechargeTest:
+  mobile_phone: "15917869681"
+  pwd: "12345678"
+
+# 提现、审核项目测试账号
+User_WithdrawTest:
+  mobile_phone: "15917869682"
+  pwd: "12345678"
+

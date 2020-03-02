@@ -1,0 +1,5 @@
+﻿#过滤 .idea 文件夹
+/.idea/
+
+#过滤__pycache__下所有.pyc文件
+/__pycache__/*.pyc
